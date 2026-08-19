@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sefaz_ce_emissao_dae-mcp",
+  "title": "SEFAZ CE: Emissão de DAE",
+  "description": "SEFAZ CE: Issuance de DAE, official-source lookup. Platform-hosted, pay per query with prepaid credi",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sefaz_ce_emissao_dae-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sefaz_ce_emissao_dae"
+    }
+  ]
+}
